@@ -2,17 +2,3 @@
 @use './base/base';
 @use './base/reset';
 
-/* components */
-@use "./components/footer";
-@use "./components/navBar";
-
-/* components home*/
-@use "./components/home/content";
-@use "./components/home/content2";
-@use "./components/home/title";
-
-/* components tienda */
-@use "./components/tienda/tienda";
-
-/* components contacto*/
-@use "./components/contacto/contacto";

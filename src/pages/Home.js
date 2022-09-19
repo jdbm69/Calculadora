@@ -1,6 +1,5 @@
 import React from "react";
 import BodyHome from "../components/home/BodyHome";
-import Footer from "../components/Footer";
 
 
 const Home = () => {
