@@ -1,4 +1,11 @@
 /* base */
-@use './base/base';
 @use './base/reset';
 
+/* home */
+@use './components/container';
+@use './components/calculadora';
+@use './components/pantalla';
+@use './components/teclado';
+@use './components/numeros';
+@use './components/operaciones';
+@use './components/resetear';

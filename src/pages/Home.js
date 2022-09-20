@@ -1,11 +1,11 @@
 import React from "react";
-import BodyHome from "../components/home/BodyHome";
+import Container from "../components/Container";
 
 
 const Home = () => {
     return (
         <div>
-            <BodyHome/>
+            <Container/>
         </div>
     )
 };

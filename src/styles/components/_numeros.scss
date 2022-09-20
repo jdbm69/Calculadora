@@ -1,0 +1,14 @@
+.container_numeros {
+    height: 100%;
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    button {
+        width: 30vh;
+        height: 15vh;
+        background-color: rgb(88, 88, 88);
+    }
+    #cero {
+        width: 60vh;
+    }
+}
