@@ -4,7 +4,7 @@ const Numeros = ({state, setState}) => {
 
     const handleChange = (e) => {
 
-        if (state.length <= 9) {
+        if (state.length <= 8) {
             if (state === '0') {
                 if (e.target.value !== ',') {
                     setState(e.target.value);    
