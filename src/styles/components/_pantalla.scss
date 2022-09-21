@@ -4,11 +4,20 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     gap: 5vh;
     #numero {
         color: white;
-        font-size: 15vh;
+        font-size: 11vh;
         letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container_pantalla {
+        height: 15vh;
+        #numero {
+            font-size: 5vh;
+        }
     }
 }

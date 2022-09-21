@@ -1,12 +1,16 @@
 import React from "react";
 import Resetear from './Resetear'
 
-const Pantalla = ({state, setState, botonDecimal, setBotonDecimal}) => {
+const Pantalla = ({state, setState, setBotonDecimal, setAcumulado}) => {
 
     return (
         <div className="container_pantalla">
             <p id="numero">{state}</p>
-            <Resetear state={state} setState={setState} botonDecimal={botonDecimal} setBotonDecimal={setBotonDecimal}/>
+            <Resetear  
+                setState={setState}  
+                setBotonDecimal={setBotonDecimal}
+                setAcumulado={setAcumulado}
+            />
         </div>
     )
 };

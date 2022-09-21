@@ -1,9 +1,10 @@
 import React from "react";
 
-const Resetear = ({state, setState, botonDecimal, setBotonDecimal}) => {
+const Resetear = ({setState, setBotonDecimal, setAcumulado}) => {
 
     const handleChange = (e) => {
-        setState(e.target.value);
+        setState('0');
+        setAcumulado('0');
         setBotonDecimal(false);
     }
 

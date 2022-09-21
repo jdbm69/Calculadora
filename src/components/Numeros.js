@@ -4,9 +4,9 @@ const Numeros = ({state, setState, botonDecimal, setBotonDecimal}) => {
 
     const handleChange = (e) => {
         if (state.length <= 9) {
-            if (e.target.value === ',') {
+            if (e.target.value === '.') {
                 if (state === '0') {
-                    setState('0' + ',');
+                    setState('0.');
                     setBotonDecimal(true);
                 } else {
                     setState(state + e.target.value);
@@ -14,7 +14,7 @@ const Numeros = ({state, setState, botonDecimal, setBotonDecimal}) => {
                 }
             }       
     
-            if (state === '0' && e.target.value !== ',') {
+            if (state === '0' && e.target.value !== '.') {
                 setState(e.target.value)
             }
 
@@ -36,7 +36,7 @@ const Numeros = ({state, setState, botonDecimal, setBotonDecimal}) => {
             <button onClick={handleChange} value='2'>2</button>
             <button onClick={handleChange} value='3'>3</button>
             <button onClick={handleChange} id="cero" value='0'>0</button>
-            <button onClick={handleChange} value=',' disabled={botonDecimal}>,</button>
+            <button onClick={handleChange} value='.' disabled={botonDecimal}>,</button>
         </div>
     )
 };

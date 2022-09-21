@@ -1,5 +1,16 @@
 .container_calculadora {
-    background-color: white;
     height: 90vh;
-    width: 120vh;
+    width: 100vh;
+    font-size: 7vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .container_calculadora {
+        height: 100%;
+        width: 40vh;
+        font-size: 3vh;
+        margin-top: 13vh;
+        margin-bottom: 13vh;
+    }
 }
