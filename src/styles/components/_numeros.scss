@@ -8,6 +8,7 @@
         height: 15vh;
         background-color: rgb(88, 88, 88);
         color: white;
+        border: 2px solid black;
     }
     button:hover {
         color: black;
@@ -27,12 +28,12 @@
 
 @media only screen and (max-width: 600px) {
     .container_numeros {
-        width: 30vh;
+        width: 37,5vh;
         button {
-            width: 10vh;
+            width: 12.5vh;
         }
         #cero {
-            width: 20vh;
+            width: 25vh;
         }
     }
 }

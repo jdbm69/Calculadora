@@ -9,6 +9,7 @@
         height: 12vh;
         background-color: rgb(255, 115, 0);
         color: black;
+        border: 2px solid black;
     }
     button:hover {
         color: white;
@@ -21,9 +22,9 @@
 
 @media only screen and (max-width: 600px) {
     .container_operaciones {
-        width: 10vh;
+        width: 12.5vh;
         button {
-            width: 10vh;
+            width: 12.5vh;
         }
     }
 }
